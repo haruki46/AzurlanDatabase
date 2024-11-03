@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "setupsql": "bunx prisma init --datasource-provider sqlite"
+    "setupsql": "bunx prisma generate"
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
